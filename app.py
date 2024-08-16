@@ -39,8 +39,6 @@ with st.form("Fill this form"):
     submit_button = st.form_submit_button(label="Submit")
 
 
-
-
 dt = f'{d} {t}'
 params = {'pickup_datetime': dt, 'pickup_longitude' : pickup_longitude,
               'pickup_latitude' : pickup_latitude, 'dropoff_longitude' : dropoff_longitude ,
